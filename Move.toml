@@ -1,0 +1,19 @@
+[package]
+name = "smart_move"
+version = "1.0.0"
+published-at = "0x388702298ed7f5a7a34a8928aadd83494bd3b8e6f88f6d27f16feadc654fe6e7"
+
+authors = []
+[addresses]
+hello = "0x388702298ed7f5a7a34a8928aadd83494bd3b8e6f88f6d27f16feadc654fe6e7"
+std = "0x1"
+
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
